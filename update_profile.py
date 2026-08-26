@@ -2,6 +2,7 @@ import os
 import re
 import requests
 import json
+import urllib.parse
 
 GITLAB_USERNAME = "Spet001"
 ITCHIO_TOKEN = os.environ.get("ITCHIO_TOKEN")
@@ -38,6 +39,7 @@ def get_gitlab_projects():
                 for lang in list(langs.keys())[:3]: # Pegamos o Top 3 linguagens para não poluir
                     # Adiciona uma badge simples para cada linguagem
                     safe_lang = lang.replace("-", "--").replace("_", "__")
+                    safe_lang = urllib.parse.quote(safe_lang)
                     badges += f"![{lang}](https://img.shields.io/badge/{safe_lang}-232F3E?style=flat-square) "
             
             projects.append(f"- 🦊 [**{name}**]({url}) {badges}- {desc}")

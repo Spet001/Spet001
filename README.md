@@ -6,6 +6,9 @@ Sou um desenvolvedor apaixonado por destrinchar sistemas, criar soluções e oti
 
 Tenho um carinho especial por explorar ambientes restritos (como o ecossistema UWP/Windows Store), criar ferramentas de injeção nativa e mods para jogos, além de desenvolver aplicações web (React) e utilitários de automação com Python e PowerShell.
 
+> **Fun Fact:** Sabia que este readme inteiro é gerado e atualizado automaticamente via Python consumindo as APIs de onde estão meus projetos? A magia da programação!! 🪄
+> [Veja o código do agregador aqui](https://github.com/Spet001/Spet001/blob/main/update_profile.py)
+
 ### 🛠️ Tech Stack & Ferramentas
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
