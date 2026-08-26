@@ -25,9 +25,9 @@ A maioria do meu código fonte e meus mods estão hospedados em plataformas mais
 
 <!-- START_PROJETOS -->
 ### 🦊 GitLab
-- 🦊 [**CW-UWP-GSC-Injector**](https://gitlab.com/Spet001/CW-UWP-GSC-Injector) ![C++](https://img.shields.io/badge/C++-232F3E?style=flat-square) - A lightweight, zero-dependency, standalone C++ console utility that injects compiled GSC scripts into the Microsoft Store/Xbox App version of Call of Duty: Black Ops Cold War (T9).
-- 🦊 [**ZPGDK**](https://gitlab.com/Spet001/msclients) ![C++](https://img.shields.io/badge/C++-232F3E?style=flat-square) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) - Clients for MS Store CODs
-- 🦊 [**ResurgeGDK**](https://gitlab.com/Spet001/resurgegdkbackup) ![C++](https://img.shields.io/badge/C++-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) ![C#](https://img.shields.io/badge/C#-232F3E?style=flat-square) - Resurge Client: Play Black Ops 3 on XBOX PC Servers.
+- 🦊 [**CW-UWP-GSC-Injector**](https://gitlab.com/Spet001/CW-UWP-GSC-Injector) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) - A lightweight, zero-dependency, standalone C++ console utility that injects compiled GSC scripts into the Microsoft Store/Xbox App version of Call of Duty: Black Ops Cold War (T9).
+- 🦊 [**ZPGDK**](https://gitlab.com/Spet001/msclients) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) - Clients for MS Store CODs
+- 🦊 [**ResurgeGDK**](https://gitlab.com/Spet001/resurgegdkbackup) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - Resurge Client: Play Black Ops 3 on XBOX PC Servers.
 
 ### 🎮 itch.io
 - 🎮 [**Grid-Based First-Person Movement Template - Unreal 5**](https://spet01.itch.io/grid-based-first-person-movement-template-unreal-5) - Foundation for creating grid-based, first-person dungeon crawler games in Unreal Engine 5.
