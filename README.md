@@ -21,7 +21,23 @@ Tenho um carinho especial por explorar ambientes restritos (como o ecossistema U
 A maioria do meu código fonte e meus mods estão hospedados em plataformas mais especializadas. Abaixo você encontra a lista atualizada automaticamente dos meus projetos mais recentes no GitLab, Nexus Mods e itch.io:
 
 <!-- START_PROJETOS -->
-*(Esta seção será atualizada automaticamente pelo meu agregador)*
+### 🦊 GitLab
+- 🦊 [**CW-UWP-GSC-Injector**](https://gitlab.com/Spet001/CW-UWP-GSC-Injector) ![C++](https://img.shields.io/badge/C++-232F3E?style=flat-square) - Sem descrição.
+- 🦊 [**ZPGDK**](https://gitlab.com/Spet001/msclients) ![C++](https://img.shields.io/badge/C++-232F3E?style=flat-square) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) - Sem descrição.
+- 🦊 [**ResurgeGDK**](https://gitlab.com/Spet001/resurgegdkbackup) ![C++](https://img.shields.io/badge/C++-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) ![C#](https://img.shields.io/badge/C#-232F3E?style=flat-square) - Sem descrição.
+- 🦊 [**iw-fix-ms-deletion_scheduled-77951497**](https://gitlab.com/Spet001/iw-fix-ms-deletion_scheduled-77951497) ![JavaScript](https://img.shields.io/badge/JavaScript-232F3E?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-232F3E?style=flat-square) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - Sem descrição.
+- 🦊 [**bo-online-fix-deletion_scheduled-77946138**](https://gitlab.com/Spet001/bo-online-fix-deletion_scheduled-77946138) ![JavaScript](https://img.shields.io/badge/JavaScript-232F3E?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-232F3E?style=flat-square) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - Sem descrição.
+
+### 🎮 itch.io
+- 🎮 [**Grid-Based First-Person Movement Template - Unreal 5**](https://spet01.itch.io/grid-based-first-person-movement-template-unreal-5) - Sem descrição.
+- 🎮 [**Outcaster - A 2.5D FPS Template**](https://spet01.itch.io/outcaster-retro-fps-template) - Sem descrição.
+- 🎮 [**Outcaster - a 3D FPS Template**](https://spet01.itch.io/outcaster-a-3d-fps-template) - Sem descrição.
+
+### ⚔️ Nexus Mods
+- ⚔️ [**FF13 Fix for Microsoft Store-Xbox Gamepass**](https://www.nexusmods.com/finalfantasy13/mods/59) - **FF13Fix** is a set of performance and bug fixes for the *Final Fantasy XIII* version available on the Microsoft Store (Xbox Game Pass for PC). This project adapts the fixes from the [original FF13Fix](https://github.com/rebtd7/FF13Fix) to make them compatible with this specific version of the game. *(↓ 898 Downloads)*
+- ⚔️ [**Pirate Yakuza- MS Store Mod Installer**](https://www.nexusmods.com/likeadragonpirateyakuzainhawaii/mods/181) - This tool provides a workaround for installing mods in certain Yakuza games purchased from the Microsoft Store or played via Xbox Game Pass, where the Shin Ryu Mod Manager is not functional. This is the only known method to get mods working for games like Yakuza Kiwami 2 and Like a Dragon Pirate Yakuza. *(↓ 214 Downloads)*
+
+
 <!-- END_PROJETOS -->
 
 ---
