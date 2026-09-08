@@ -26,7 +26,7 @@ A maioria do meu código fonte e meus mods estão hospedados em plataformas mais
 <!-- START_PROJETOS -->
 ### 🦊 GitLab
 - 🦊 [**CW-UWP-GSC-Injector**](https://gitlab.com/Spet001/CW-UWP-GSC-Injector) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) - A lightweight, zero-dependency, standalone C++ console utility that injects compiled GSC scripts into the Microsoft Store/Xbox App version of Call of Duty: Black Ops Cold War (T9).
-- 🦊 [**ZPGDK**](https://gitlab.com/Spet001/msclients) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) - Clients for MS Store CODs
+- 🦊 [**ZPGDK**](https://gitlab.com/Spet001/msclients) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) - Clients for MS Store CODs- GSC Injector, Client Manipulation
 - 🦊 [**ResurgeGDK**](https://gitlab.com/Spet001/resurgegdkbackup) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - Resurge Client: Play Black Ops 3 on XBOX PC Servers.
 
 ### 🎮 itch.io
@@ -35,7 +35,7 @@ A maioria do meu código fonte e meus mods estão hospedados em plataformas mais
 - 🎮 [**Outcaster - a 3D FPS Template**](https://spet01.itch.io/outcaster-a-3d-fps-template) - A simple Unity 6 3D FPS Template.
 
 ### ⚔️ Nexus Mods
-- ⚔️ [**FF13 Fix for Microsoft Store-Xbox Gamepass**](https://www.nexusmods.com/finalfantasy13/mods/59) - **FF13Fix** is a set of performance and bug fixes for the *Final Fantasy XIII* version available on the Microsoft Store (Xbox Game Pass for PC). This project adapts the fixes from the [original FF13Fix](https://github.com/rebtd7/FF13Fix) to make them compatible with this specific version of the game. *(↓ 925 Downloads)*
+- ⚔️ [**FF13 Fix for Microsoft Store-Xbox Gamepass**](https://www.nexusmods.com/finalfantasy13/mods/59) - **FF13Fix** is a set of performance and bug fixes for the *Final Fantasy XIII* version available on the Microsoft Store (Xbox Game Pass for PC). This project adapts the fixes from the [original FF13Fix](https://github.com/rebtd7/FF13Fix) to make them compatible with this specific version of the game. *(↓ 928 Downloads)*
 - ⚔️ [**Pirate Yakuza- MS Store Mod Installer**](https://www.nexusmods.com/likeadragonpirateyakuzainhawaii/mods/181) - This tool provides a workaround for installing mods in certain Yakuza games purchased from the Microsoft Store or played via Xbox Game Pass, where the Shin Ryu Mod Manager is not functional. This is the only known method to get mods working for games like Yakuza Kiwami 2 and Like a Dragon Pirate Yakuza. *(↓ 219 Downloads)*
 
 
