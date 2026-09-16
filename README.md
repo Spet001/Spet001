@@ -25,7 +25,7 @@ A maioria do meu código fonte e meus mods estão hospedados em plataformas mais
 
 <!-- START_PROJETOS -->
 ### 🦊 GitLab
-- 🦊 [**T6 ZPGDK Crossplay Relay**](https://gitlab.com/Spet001/t6-zpgdk-crossplay-relay) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - Crossplay on LAN/Custom Games for T6 GDK X PS5/4 X X360
+- 🦊 [**T6 ZPGDK Crossplay Relay**](https://gitlab.com/Spet001/t6-zpgdk-crossplay-relay) ![Python](https://img.shields.io/badge/Python-232F3E?style=flat-square) ![Batchfile](https://img.shields.io/badge/Batchfile-232F3E?style=flat-square) - Crossplay on LAN/Custom Games for T6 GDK X PS5/4 X X360
 - 🦊 [**COD GDK GSC Dumps**](https://gitlab.com/Spet001/t5-gdk-gsc-dumps) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) - Dumped by using my tool: https://gitlab.com/Spet001/msclients/ - GSC Dumps from XBOX PC (GDK) CODs
 - 🦊 [**CW-UWP-GSC-Injector**](https://gitlab.com/Spet001/CW-UWP-GSC-Injector) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) - A lightweight, zero-dependency, standalone C++ console utility that injects compiled GSC scripts into the Microsoft Store/Xbox App version of Call of Duty: Black Ops Cold War (T9).
 - 🦊 [**ZPGDK**](https://gitlab.com/Spet001/msclients) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) - Clients for MS Store CODs- GSC Injector, Client Manipulation
