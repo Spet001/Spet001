@@ -25,6 +25,7 @@ A maioria do meu código fonte e meus mods estão hospedados em plataformas mais
 
 <!-- START_PROJETOS -->
 ### 🦊 GitLab
+- 🦊 [**ResurgeCW**](https://gitlab.com/Spet001/resurgecw) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - Sem descrição.
 - 🦊 [**T9GSCMods**](https://gitlab.com/Spet001/T9_GSC_Mods) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) - T9 GSC Mods as Open Source - No Gatekeeping
 - 🦊 [**T5-T6 Fast File Editor**](https://gitlab.com/Spet001/t_5_6_ff_editor) ![Python](https://img.shields.io/badge/Python-232F3E?style=flat-square) - A simple Python GUI for decompressesion ("decompiles") .ff fastfiles on T5 (BO1) and T6 (BO2) on MS Store (Xbox PC) version.
 - 🦊 [**COD GDK GSC Dumps**](https://gitlab.com/Spet001/t5-gdk-gsc-dumps) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) - Dumped by using my tool: https://gitlab.com/Spet001/msclients/ - GSC Dumps from XBOX PC (GDK) CODs
