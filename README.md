@@ -1,57 +1,75 @@
-# Olá! 👋 Sou o Eduardo Gelain
+# Eduardo Gelain
 
-**Software & Game Developer | Engenharia Reversa | Modding**
+**Desenvolvedor de Software e Jogos | Engenharia Reversa | Sistemas de Baixo Nível**
 
-Sou um desenvolvedor apaixonado por destrinchar sistemas, criar soluções e otimizar processos. Minha jornada transita desde a criação de experiências interativas, como jogos em Unity (C#) e Unreal (C++), até a construção de otimizações complexas e engenharia reversa de softwares.
+Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenho, sistemas de baixo nível, C++, C# e engenharia reversa. Atuo na ponte entre mecânicas de gameplay em engines comerciais e manipulação nativa de memória e sistemas em tempo real. Minha trajetória une desenvolvimento comercial, pesquisa técnica e ferramentas para a comunidade:
 
-Tenho um carinho especial por explorar ambientes restritos (como o ecossistema UWP/Windows Store), criar ferramentas de injeção nativa e mods para jogos, além de desenvolver aplicações web (React) e utilitários de automação com Python e PowerShell.
-
-> **Fun Fact:** Sabia que este readme inteiro é gerado e atualizado automaticamente via Python consumindo as APIs de onde estão meus projetos? A magia da programação!! 🪄
-> [Veja o código do agregador aqui](https://github.com/Spet001/Spet001/blob/main/update_profile.py)
-
-### 🛠️ Tech Stack & Ferramentas
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
-![Unreal](https://img.shields.io/badge/Unreal_Engine-313131?style=for-the-badge&logo=unrealengine&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- **Engenharia Reversa e Sistemas Nativos:** Desenvolvimento de scanners dinâmicos de assinaturas em memória (sigscan), injeção de DLLs nativas em C++, hooking em ponteiros de despacho de bytecode (VM de GSC) e contorno de sandboxes restritos (UWP e Microsoft GDK).
+- **Desenvolvimento de Jogos e QA Técnico:** Atuação profissional em Quality Assurance no lançamento comercial de Sparky Rush na Steam, identificando bugs críticos com testes de regressão e dedução de causas-raiz direto no código (Unity e C#). Criação de templates modulares de jogabilidade (Outcaster em Unity e protótipos em Unreal Engine 5 com C++).
+- **Ferramentas e Otimização:** Autoria de utilitários em Python e Electron para otimização de estabilidade, integração Vulkan/DXVK e patches de memória binária, acumulando mais de 10.000 downloads e dezenas de milhares de acessos na comunidade (NexusMods e GitLab).
 
 ---
 
-### 🚀 Meus Projetos e Mods
+### Estatísticas
 
-A maioria do meu código fonte e meus mods estão hospedados em plataformas mais especializadas. Abaixo você encontra a lista atualizada automaticamente dos meus projetos mais recentes no GitLab, Nexus Mods e itch.io:
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Spet001&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Spet001&theme=tokyonight&hide_border=true&layout=compact" alt="Top Languages" height="165" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/GitLab-Spet001-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab" />
+  <img src="https://img.shields.io/badge/Nexus_Mods-10k+_Downloads-DA8E35?style=flat-square&logo=nexusmods&logoColor=white" alt="Nexus Mods" />
+</p>
+
+---
+
+### Stack Técnica e Competências
+
+- **Linguagens:** C++, C# (.NET), Python, C, x86/x64 Assembly, JavaScript, TypeScript
+- **Engines e Gráficos:** Unity Engine, Unreal Engine 5, WebGL, Three.js, DirectX, Vulkan
+- **Baixo Nível e Reversing:** IDA Pro, x64dbg, Win32 API, Injeção de DLLs, Memory Scanning, Hooking, UWP/GDK Internals
+- **Qualidade e Ferramentas:** Dedução de código, Electron, Git, CI/CD, Profiling de Performance
+
+---
+
+### Projetos e Publicações
 
 <!-- START_PROJETOS -->
-### 🦊 GitLab
-- 🦊 [**ResurgeCW**](https://gitlab.com/Spet001/resurgecw) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - This utility allows players with existing Steam,Battle.net,SteamTools/SkyTools, BNET Installer game files to install  the Resurge Client (GDK) - Play online on with your Xbox Account.
-- 🦊 [**T9GSCMods**](https://gitlab.com/Spet001/T9_GSC_Mods) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) - T9 GSC Mods as Open Source - No Gatekeeping
-- 🦊 [**T5-T6 Fast File Editor**](https://gitlab.com/Spet001/t_5_6_ff_editor) ![Python](https://img.shields.io/badge/Python-232F3E?style=flat-square) - A simple Python GUI for decompressesion ("decompiles") .ff fastfiles on T5 (BO1) and T6 (BO2) on MS Store (Xbox PC) version.
-- 🦊 [**COD GDK GSC Dumps**](https://gitlab.com/Spet001/t5-gdk-gsc-dumps) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) - Dumped by using my tool: https://gitlab.com/Spet001/msclients/ - GSC Dumps from XBOX PC (GDK) CODs
-- 🦊 [**CW-UWP-GSC-Injector**](https://gitlab.com/Spet001/CW-UWP-GSC-Injector) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) - A lightweight, zero-dependency, standalone C++ console utility that injects compiled GSC scripts into the Microsoft Store/Xbox App version of Call of Duty: Black Ops Cold War (T9).
-- 🦊 [**ZPGDK**](https://gitlab.com/Spet001/msclients) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) - Clients for MS Store CODs- GSC Injector for MS Store (Xbox App) Black Ops 1/2, Client Manipulation, DLC Unlocker and more...
-- 🦊 [**ResurgeGDK**](https://gitlab.com/Spet001/resurgegdkbackup) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - Resurge Client: Play Black Ops 3 on XBOX PC Servers.
+### GitHub (Commits Recentes)
+- [**Spet001.github.io**](https://github.com/Spet001/Spet001.github.io) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - Sem descrição.
+- [**ProjectY**](https://github.com/Spet001/ProjectY) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) - MDPro Web is a browser-based Yu-Gi-Oh! simulator built wiith Three.js
+- [**Open-Source-T6-GSC-Mods**](https://github.com/Spet001/Open-Source-T6-GSC-Mods) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) - Sem descrição.
 
-### 🎮 itch.io
-- 🎮 [**Grid-Based First-Person Movement Template - Unreal 5**](https://spet01.itch.io/grid-based-first-person-movement-template-unreal-5) - Foundation for creating grid-based, first-person dungeon crawler games in Unreal Engine 5.
-- 🎮 [**Outcaster - A 2.5D FPS Template**](https://spet01.itch.io/outcaster-retro-fps-template) - Outcaster (Template Version) is a  FPS template for Unity 6.
-- 🎮 [**Outcaster - a 3D FPS Template**](https://spet01.itch.io/outcaster-a-3d-fps-template) - A simple Unity 6 3D FPS Template.
+### GitLab
+- [**ResurgeCW**](https://gitlab.com/Spet001/resurgecw) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - This utility allows players with existing Steam,Battle.net,SteamTools/SkyTools, BNET Installer game files to install  the Resurge Client (GDK) - Play online on with your Xbox Account.
+- [**T9GSCMods**](https://gitlab.com/Spet001/T9_GSC_Mods) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) - T9 GSC Mods as Open Source - No Gatekeeping
+- [**T5-T6 Fast File Editor**](https://gitlab.com/Spet001/t_5_6_ff_editor) ![Python](https://img.shields.io/badge/Python-232F3E?style=flat-square) - A simple Python GUI for decompressesion ("decompiles") .ff fastfiles on T5 (BO1) and T6 (BO2) on MS Store (Xbox PC) version.
+- [**COD GDK GSC Dumps**](https://gitlab.com/Spet001/t5-gdk-gsc-dumps) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) - Dumped by using my tool: https://gitlab.com/Spet001/msclients/ - GSC Dumps from XBOX PC (GDK) CODs
+- [**CW-UWP-GSC-Injector**](https://gitlab.com/Spet001/CW-UWP-GSC-Injector) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) - A lightweight, zero-dependency, standalone C++ console utility that injects compiled GSC scripts into the Microsoft Store/Xbox App version of Call of Duty: Black Ops Cold War (T9).
+- [**ZPGDK**](https://gitlab.com/Spet001/msclients) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) - Clients for MS Store CODs- GSC Injector for MS Store (Xbox App) Black Ops 1/2, Client Manipulation, DLC Unlocker and more...
+- [**ResurgeGDK**](https://gitlab.com/Spet001/resurgegdkbackup) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - Resurge Client: Play Black Ops 3 on XBOX PC Servers.
 
-### ⚔️ Nexus Mods
-- ⚔️ [**FF13 Fix for Microsoft Store-Xbox Gamepass**](https://www.nexusmods.com/finalfantasy13/mods/59) - **FF13Fix** is a set of performance and bug fixes for the *Final Fantasy XIII* version available on the Microsoft Store (Xbox Game Pass for PC). This project adapts the fixes from the [original FF13Fix](https://github.com/rebtd7/FF13Fix) to make them compatible with this specific version of the game. *(↓ 1022 Downloads)*
-- ⚔️ [**Pirate Yakuza- MS Store Mod Installer**](https://www.nexusmods.com/likeadragonpirateyakuzainhawaii/mods/181) - This tool provides a workaround for installing mods in certain Yakuza games purchased from the Microsoft Store or played via Xbox Game Pass, where the Shin Ryu Mod Manager is not functional. This is the only known method to get mods working for games like Yakuza Kiwami 2 and Like a Dragon Pirate Yakuza. *(↓ 235 Downloads)*
+### itch.io
+_Nenhum projeto encontrado._
+
+### Nexus Mods
+_Nenhum projeto encontrado._
 
 
 <!-- END_PROJETOS -->
 
 ---
 
-### 📬 Como me encontrar
-- **GitLab:** [@Spet001](https://gitlab.com/Spet001)
-- **itch.io:** [spet01.itch.io](https://spet01.itch.io/)
-- **Nexus Mods:** [Spet001](https://www.nexusmods.com/profile/Spet001/mods)
+### Links e Portfólio
+
+- **Portfólio:** [spet01.dev](https://spet01.dev/)
+- **Journal Técnico:** [spet01.dev/journal](https://spet01.dev/journal/)
+- **GitLab (Engenharia Reversa e Clientes):** [gitlab.com/Spet001](https://gitlab.com/Spet001)
+- **GitHub:** [github.com/Spet001](https://github.com/Spet001)
+- **itch.io (Jogos e Templates):** [spet01.itch.io](https://spet01.itch.io/)
+- **Nexus Mods:** [nexusmods.com/profile/Spet001/mods](https://www.nexusmods.com/profile/Spet001/mods)
 - **LinkedIn:** [Eduardo Gelain](https://www.linkedin.com/in/eduardo-gelain/)
+- **Contato direto:** gelain15mj@gmail.com
 
 ---
 

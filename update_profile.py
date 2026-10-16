@@ -4,22 +4,60 @@ import requests
 import json
 import urllib.parse
 
+GITHUB_USERNAME = "Spet001"
 GITLAB_USERNAME = "Spet001"
 ITCHIO_TOKEN = os.environ.get("ITCHIO_TOKEN")
 NEXUSMODS_TOKEN = os.environ.get("NEXUSMODS_TOKEN")
 
-# Nexus Mods não possui um endpoint público que retorne "todos os mods que eu criei" de forma simples.
-# Por isso, definimos uma lista dos seus mods principais: (nome_do_jogo_na_url, id_do_mod)
+# Nexus Mods lista de mods principais: (nome_do_jogo_na_url, id_do_mod)
 NEXUS_MODS = [
     ("finalfantasy13", 59),
     ("likeadragonpirateyakuzainhawaii", 181)
 ]
 
+def get_github_recent_projects():
+    print("Buscando repositorios recentes do GitHub...")
+    projects = []
+    url = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
+    headers = {"Accept": "application/vnd.github.v3+json"}
+    
+    # Se houver GITHUB_TOKEN no ambiente, usamos para aumentar rate limit
+    gh_token = os.environ.get("GITHUB_TOKEN")
+    if gh_token:
+        headers["Authorization"] = f"token {gh_token}"
+        
+    response = requests.get(url, headers=headers, params={"sort": "pushed", "direction": "desc", "per_page": 10})
+    if response.status_code == 200:
+        repos = response.json()
+        count = 0
+        for repo in repos:
+            # Pula forks se quiser apenas projetos autorais, ou conta os 3 primeiros
+            name = repo.get("name")
+            # Ignora o proprio repo de profile se desejar, ou inclui
+            if name == GITHUB_USERNAME:
+                continue
+            
+            repo_url = repo.get("html_url")
+            desc = repo.get("description") or "Sem descrição."
+            lang = repo.get("language")
+            badge = ""
+            if lang:
+                safe_lang = lang.replace("-", "--").replace("_", "__")
+                safe_lang = urllib.parse.quote(safe_lang)
+                badge = f"![{lang}](https://img.shields.io/badge/{safe_lang}-232F3E?style=flat-square) "
+                
+            projects.append(f"- [**{name}**]({repo_url}) {badge}- {desc}")
+            count += 1
+            if count >= 3:
+                break
+    else:
+        print(f"Erro ao buscar GitHub: {response.status_code}")
+    return projects
+
 def get_gitlab_projects():
     print("Buscando projetos do GitLab...")
     projects = []
     url = f"https://gitlab.com/api/v4/users/{GITLAB_USERNAME}/projects"
-    # Buscamos os projetos públicos (per_page 50 deve ser suficiente para o perfil)
     response = requests.get(url, params={"visibility": "public", "per_page": 50})
     if response.status_code == 200:
         data = response.json()
@@ -29,20 +67,18 @@ def get_gitlab_projects():
             desc = proj.get("description", "Sem descrição.")
             if not desc: desc = "Sem descrição."
             
-            # Busca as linguagens usadas no projeto para gerar as Badges dinamicamente
             proj_id = proj.get("id")
             lang_url = f"https://gitlab.com/api/v4/projects/{proj_id}/languages"
             lang_res = requests.get(lang_url)
             badges = ""
             if lang_res.status_code == 200:
                 langs = lang_res.json()
-                for lang in list(langs.keys())[:3]: # Pegamos o Top 3 linguagens para não poluir
-                    # Adiciona uma badge simples para cada linguagem
+                for lang in list(langs.keys())[:3]:
                     safe_lang = lang.replace("-", "--").replace("_", "__")
                     safe_lang = urllib.parse.quote(safe_lang)
                     badges += f"![{lang}](https://img.shields.io/badge/{safe_lang}-232F3E?style=flat-square) "
             
-            projects.append(f"- 🦊 [**{name}**]({url}) {badges}- {desc}")
+            projects.append(f"- [**{name}**]({url}) {badges}- {desc}")
     else:
         print(f"Erro ao buscar GitLab: {response.status_code}")
     return projects
@@ -62,7 +98,7 @@ def get_itchio_projects():
             name = game.get("title")
             url = game.get("url")
             desc = game.get("short_text", "Sem descrição.")
-            projects.append(f"- 🎮 [**{name}**]({url}) - {desc}")
+            projects.append(f"- [**{name}**]({url}) - {desc}")
     else:
         print(f"Erro ao buscar itch.io: {response.status_code}")
     return projects
@@ -88,25 +124,31 @@ def get_nexus_mods():
             mod_url = f"https://www.nexusmods.com/{game_domain}/mods/{mod_id}"
             desc = data.get("summary", "Sem descrição.")
             downloads = data.get("mod_downloads", 0)
-            projects.append(f"- ⚔️ [**{name}**]({mod_url}) - {desc} *(↓ {downloads} Downloads)*")
+            projects.append(f"- [**{name}**]({mod_url}) - {desc} *(↓ {downloads} Downloads)*")
         else:
              print(f"Erro ao buscar mod {mod_id} ({game_domain}): {response.status_code}")
     return projects
 
-def generate_markdown(gitlab_data, itch_data, nexus_data):
-    md = "### 🦊 GitLab\n"
+def generate_markdown(github_data, gitlab_data, itch_data, nexus_data):
+    md = "### GitHub (Commits Recentes)\n"
+    if github_data:
+        md += "\n".join(github_data) + "\n\n"
+    else:
+        md += "_Nenhum repositório recente encontrado._\n\n"
+
+    md += "### GitLab\n"
     if gitlab_data:
         md += "\n".join(gitlab_data) + "\n\n"
     else:
         md += "_Nenhum projeto encontrado._\n\n"
         
-    md += "### 🎮 itch.io\n"
+    md += "### itch.io\n"
     if itch_data:
         md += "\n".join(itch_data) + "\n\n"
     else:
         md += "_Nenhum projeto encontrado._\n\n"
         
-    md += "### ⚔️ Nexus Mods\n"
+    md += "### Nexus Mods\n"
     if nexus_data:
         md += "\n".join(nexus_data) + "\n\n"
     else:
@@ -138,9 +180,10 @@ def update_readme(new_content):
         print("README.md não encontrado no diretório atual.")
 
 if __name__ == "__main__":
+    github_projects = get_github_recent_projects()
     gitlab_projects = get_gitlab_projects()
     itch_projects = get_itchio_projects()
     nexus_projects = get_nexus_mods()
     
-    new_markdown = generate_markdown(gitlab_projects, itch_projects, nexus_projects)
+    new_markdown = generate_markdown(github_projects, gitlab_projects, itch_projects, nexus_projects)
     update_readme(new_markdown)

@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Aggregator Script
         env:
-          # Os tokens virão dos Secrets do seu repositório
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ITCHIO_TOKEN: ${{ secrets.ITCHIO_TOKEN }}
           NEXUSMODS_TOKEN: ${{ secrets.NEXUSMODS_TOKEN }}
         run: python update_profile.py
