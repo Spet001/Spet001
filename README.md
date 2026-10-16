@@ -36,7 +36,7 @@ Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenh
 
 <!-- START_PROJETOS -->
 ### GitHub (Commits Recentes)
-- [**Spet001.github.io**](https://github.com/Spet001/Spet001.github.io) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - Sem descrição.
+- [**Spet001.github.io**](https://github.com/Spet001/Spet001.github.io) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - https://spet01.dev/
 - [**ProjectY**](https://github.com/Spet001/ProjectY) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) - MDPro Web is a browser-based Yu-Gi-Oh! simulator built wiith Three.js
 - [**Open-Source-T6-GSC-Mods**](https://github.com/Spet001/Open-Source-T6-GSC-Mods) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) - Sem descrição.
 
@@ -50,10 +50,13 @@ Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenh
 - [**ResurgeGDK**](https://gitlab.com/Spet001/resurgegdkbackup) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) ![C](https://img.shields.io/badge/C-232F3E?style=flat-square) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - Resurge Client: Play Black Ops 3 on XBOX PC Servers.
 
 ### itch.io
-_Nenhum projeto encontrado._
+- [**Grid-Based First-Person Movement Template - Unreal 5**](https://spet01.itch.io/grid-based-first-person-movement-template-unreal-5) - Foundation for creating grid-based, first-person dungeon crawler games in Unreal Engine 5.
+- [**Outcaster - A 2.5D FPS Template**](https://spet01.itch.io/outcaster-retro-fps-template) - Outcaster (Template Version) is a  FPS template for Unity 6.
+- [**Outcaster - a 3D FPS Template**](https://spet01.itch.io/outcaster-a-3d-fps-template) - A simple Unity 6 3D FPS Template.
 
 ### Nexus Mods
-_Nenhum projeto encontrado._
+- [**FF13 Fix for Microsoft Store-Xbox Gamepass**](https://www.nexusmods.com/finalfantasy13/mods/59) - **FF13Fix** is a set of performance and bug fixes for the *Final Fantasy XIII* version available on the Microsoft Store (Xbox Game Pass for PC). This project adapts the fixes from the [original FF13Fix](https://github.com/rebtd7/FF13Fix) to make them compatible with this specific version of the game. *(↓ 1028 Downloads)*
+- [**Pirate Yakuza- MS Store Mod Installer**](https://www.nexusmods.com/likeadragonpirateyakuzainhawaii/mods/181) - This tool provides a workaround for installing mods in certain Yakuza games purchased from the Microsoft Store or played via Xbox Game Pass, where the Shin Ryu Mod Manager is not functional. This is the only known method to get mods working for games like Yakuza Kiwami 2 and Like a Dragon Pirate Yakuza. *(↓ 235 Downloads)*
 
 
 <!-- END_PROJETOS -->
