@@ -36,9 +36,9 @@ Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenh
 
 <!-- START_PROJETOS -->
 ### GitHub (Commits Recentes)
+- [**Sparky-Rush-Unlimited-FPS-Mod**](https://github.com/Spet001/Sparky-Rush-Unlimited-FPS-Mod) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - The Definitive Vapor Snake FPS Unlocker!
 - [**Spet001.github.io**](https://github.com/Spet001/Spet001.github.io) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - https://spet01.dev/
 - [**ProjectY**](https://github.com/Spet001/ProjectY) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) - MDPro Web is a browser-based Yu-Gi-Oh! simulator built wiith Three.js
-- [**Open-Source-T6-GSC-Mods**](https://github.com/Spet001/Open-Source-T6-GSC-Mods) ![GSC](https://img.shields.io/badge/GSC-232F3E?style=flat-square) - Sem descrição.
 
 ### GitLab
 - [**ResurgeCW**](https://gitlab.com/Spet001/resurgecw) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - This utility allows players with existing Steam,Battle.net,SteamTools/SkyTools, BNET Installer game files to install  the Resurge Client (GDK) - Play online on with your Xbox Account.
