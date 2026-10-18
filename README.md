@@ -36,8 +36,8 @@ Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenh
 
 <!-- START_PROJETOS -->
 ### GitHub (Commits Recentes)
-- [**Sparky-Rush-Unlimited-FPS-Mod**](https://github.com/Spet001/Sparky-Rush-Unlimited-FPS-Mod) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - The Definitive Vapor Snake FPS Unlocker!
 - [**Spet001.github.io**](https://github.com/Spet001/Spet001.github.io) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - https://spet01.dev/
+- [**Sparky-Rush-Unlimited-FPS-Mod**](https://github.com/Spet001/Sparky-Rush-Unlimited-FPS-Mod) ![C#](https://img.shields.io/badge/C%23-232F3E?style=flat-square) - The Definitive Vapor Snake FPS Unlocker!
 - [**ProjectY**](https://github.com/Spet001/ProjectY) ![Lua](https://img.shields.io/badge/Lua-232F3E?style=flat-square) - MDPro Web is a browser-based Yu-Gi-Oh! simulator built wiith Three.js
 
 ### GitLab
