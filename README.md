@@ -36,9 +36,9 @@ Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenh
 
 <!-- START_PROJETOS -->
 ### GitHub (Commits Recentes)
+- [**xCloudFX**](https://github.com/Spet001/xCloudFX) ![TypeScript](https://img.shields.io/badge/TypeScript-232F3E?style=flat-square) - 100% Client-Side WebGL2 Upscaler, Image Enhancer, 120Hz Sub-Frame Pacer & Low-Latency WebRTC Studio for Xbox Cloud Gaming & Universal Browser Video (Youtube, Anime Sites).
 - [**Spet001.github.io**](https://github.com/Spet001/Spet001.github.io) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - https://spet01.dev/
 - [**Universal-File**](https://github.com/Spet001/Universal-File) ![TypeScript](https://img.shields.io/badge/TypeScript-232F3E?style=flat-square) - View/Extract Game Files across 25+ PC and console game engines. 100% Online.
-- [**Easy-Decompiler**](https://github.com/Spet001/Easy-Decompiler) ![JavaScript](https://img.shields.io/badge/JavaScript-232F3E?style=flat-square) - 100% online decompiler. C-like decompiler runtime executed in browser Web Worker threads via WebAssembly. Provides disassembly, control flow graph (CFG) generation, function boundary reconstruction, string cross-referencing, and C-like pseudocode generation.
 
 ### GitLab
 - [**4gb Patch Online**](https://gitlab.com/Spet001/4gb-patch-online) ![TSX](https://img.shields.io/badge/TSX-232F3E?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-232F3E?style=flat-square) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - Spet's 4gb Patch is a 100% client-side Windows Portable Executable (PE32 / PE32+) header analyzer and binary patcher that runs directly in your browser via ArrayBuffer and DataView. Zero server uploads—your .exe and .dll files never leave your machine.
@@ -57,7 +57,7 @@ Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenh
 - [**Outcaster - a 3D FPS Template**](https://spet01.itch.io/outcaster-a-3d-fps-template) - A simple Unity 6 3D FPS Template.
 
 ### Nexus Mods
-- [**FF13 Fix for Microsoft Store-Xbox Gamepass**](https://www.nexusmods.com/finalfantasy13/mods/59) - **FF13Fix** is a set of performance and bug fixes for the *Final Fantasy XIII* version available on the Microsoft Store (Xbox Game Pass for PC). This project adapts the fixes from the [original FF13Fix](https://github.com/rebtd7/FF13Fix) to make them compatible with this specific version of the game. *(↓ 1035 Downloads)*
+- [**FF13 Fix for Microsoft Store-Xbox Gamepass**](https://www.nexusmods.com/finalfantasy13/mods/59) - **FF13Fix** is a set of performance and bug fixes for the *Final Fantasy XIII* version available on the Microsoft Store (Xbox Game Pass for PC). This project adapts the fixes from the [original FF13Fix](https://github.com/rebtd7/FF13Fix) to make them compatible with this specific version of the game. *(↓ 1041 Downloads)*
 - [**Pirate Yakuza- MS Store Mod Installer**](https://www.nexusmods.com/likeadragonpirateyakuzainhawaii/mods/181) - This tool provides a workaround for installing mods in certain Yakuza games purchased from the Microsoft Store or played via Xbox Game Pass, where the Shin Ryu Mod Manager is not functional. This is the only known method to get mods working for games like Yakuza Kiwami 2 and Like a Dragon Pirate Yakuza. *(↓ 236 Downloads)*
 
 
