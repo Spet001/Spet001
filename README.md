@@ -36,8 +36,8 @@ Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenh
 
 <!-- START_PROJETOS -->
 ### GitHub (Commits Recentes)
-- [**xCloudFX**](https://github.com/Spet001/xCloudFX) ![TypeScript](https://img.shields.io/badge/TypeScript-232F3E?style=flat-square) - 100% Client-Side WebGL2 Upscaler, Image Enhancer, 120Hz Sub-Frame Pacer & Low-Latency WebRTC Studio for Xbox Cloud Gaming & Universal Browser Video (Youtube, Anime Sites).
 - [**Spet001.github.io**](https://github.com/Spet001/Spet001.github.io) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - https://spet01.dev/
+- [**xCloudFX**](https://github.com/Spet001/xCloudFX) ![TypeScript](https://img.shields.io/badge/TypeScript-232F3E?style=flat-square) - 100% Client-Side WebGL2 Upscaler, Image Enhancer, 120Hz Sub-Frame Pacer & Low-Latency WebRTC Studio for Xbox Cloud Gaming & Universal Browser Video (Youtube, Anime Sites).
 - [**Universal-File**](https://github.com/Spet001/Universal-File) ![TypeScript](https://img.shields.io/badge/TypeScript-232F3E?style=flat-square) - View/Extract Game Files across 25+ PC and console game engines. 100% Online.
 
 ### GitLab
