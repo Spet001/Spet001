@@ -36,9 +36,9 @@ Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenh
 
 <!-- START_PROJETOS -->
 ### GitHub (Commits Recentes)
+- [**Spet-Term**](https://github.com/Spet001/Spet-Term) - Sem descrição.
 - [**Spet001.github.io**](https://github.com/Spet001/Spet001.github.io) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - https://spet01.dev/
 - [**xCloudFX**](https://github.com/Spet001/xCloudFX) ![TypeScript](https://img.shields.io/badge/TypeScript-232F3E?style=flat-square) - 100% Client-Side WebGL2 Upscaler, Image Enhancer, 120Hz Sub-Frame Pacer & Low-Latency WebRTC Studio for Xbox Cloud Gaming & Universal Browser Video (Youtube, Anime Sites).
-- [**Universal-File**](https://github.com/Spet001/Universal-File) ![TypeScript](https://img.shields.io/badge/TypeScript-232F3E?style=flat-square) - View/Extract Game Files across 25+ PC and console game engines. 100% Online.
 
 ### GitLab
 - [**4gb Patch Online**](https://gitlab.com/Spet001/4gb-patch-online) ![TSX](https://img.shields.io/badge/TSX-232F3E?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-232F3E?style=flat-square) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - Spet's 4gb Patch is a 100% client-side Windows Portable Executable (PE32 / PE32+) header analyzer and binary patcher that runs directly in your browser via ArrayBuffer and DataView. Zero server uploads—your .exe and .dll files never leave your machine.
