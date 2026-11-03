@@ -36,7 +36,7 @@ Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenh
 
 <!-- START_PROJETOS -->
 ### GitHub (Commits Recentes)
-- [**Spet-Term**](https://github.com/Spet001/Spet-Term) - Sem descrição.
+- [**Spet-Term**](https://github.com/Spet001/Spet-Term) ![C++](https://img.shields.io/badge/C%2B%2B-232F3E?style=flat-square) - Spet@term is a native Windows terminal emulator and micro-IDE written in C++. It couples Direct2D hardware-accelerated rendering with Windows Pseudo Console (ConPTY) subsystem integration, delivering low resource usage and built-in developer tooling in a single standalone binary.
 - [**Spet001.github.io**](https://github.com/Spet001/Spet001.github.io) ![HTML](https://img.shields.io/badge/HTML-232F3E?style=flat-square) - https://spet01.dev/
 - [**xCloudFX**](https://github.com/Spet001/xCloudFX) ![TypeScript](https://img.shields.io/badge/TypeScript-232F3E?style=flat-square) - 100% Client-Side WebGL2 Upscaler, Image Enhancer, 120Hz Sub-Frame Pacer & Low-Latency WebRTC Studio for Xbox Cloud Gaming & Universal Browser Video (Youtube, Anime Sites).
 
@@ -57,7 +57,7 @@ Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenh
 - [**Outcaster - a 3D FPS Template**](https://spet01.itch.io/outcaster-a-3d-fps-template) - A simple Unity 6 3D FPS Template.
 
 ### Nexus Mods
-- [**FF13 Fix for Microsoft Store-Xbox Gamepass**](https://www.nexusmods.com/finalfantasy13/mods/59) - **FF13Fix** is a set of performance and bug fixes for the *Final Fantasy XIII* version available on the Microsoft Store (Xbox Game Pass for PC). This project adapts the fixes from the [original FF13Fix](https://github.com/rebtd7/FF13Fix) to make them compatible with this specific version of the game. *(↓ 1062 Downloads)*
+- [**FF13 Fix for Microsoft Store-Xbox Gamepass**](https://www.nexusmods.com/finalfantasy13/mods/59) - **FF13Fix** is a set of performance and bug fixes for the *Final Fantasy XIII* version available on the Microsoft Store (Xbox Game Pass for PC). This project adapts the fixes from the [original FF13Fix](https://github.com/rebtd7/FF13Fix) to make them compatible with this specific version of the game. *(↓ 1066 Downloads)*
 - [**Pirate Yakuza- MS Store Mod Installer**](https://www.nexusmods.com/likeadragonpirateyakuzainhawaii/mods/181) - This tool provides a workaround for installing mods in certain Yakuza games purchased from the Microsoft Store or played via Xbox Game Pass, where the Shin Ryu Mod Manager is not functional. This is the only known method to get mods working for games like Yakuza Kiwami 2 and Like a Dragon Pirate Yakuza. *(↓ 238 Downloads)*
 
 
