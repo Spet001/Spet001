@@ -53,7 +53,7 @@ Desenvolvedor de Software e Jogos especializado em arquitetura de alto desempenh
 
 ### itch.io
 - [**Grid-Based First-Person Movement Template - Unreal 5**](https://spet01.itch.io/grid-based-first-person-movement-template-unreal-5) - Foundation for creating grid-based, first-person dungeon crawler games in Unreal Engine 5.
-- [**Outcaster - A 2.5D FPS Template**](https://spet01.itch.io/outcaster-retro-fps-template) - Outcaster (Template Version) is a  FPS template for Unity 6.
+- [**Outcaster - A 2.5D FPS Template**](https://spet01.itch.io/outcaster-retro-fps-template) - Outcaster (Template Version) is a  FPS template for Unity.
 - [**Outcaster - a 3D FPS Template**](https://spet01.itch.io/outcaster-a-3d-fps-template) - A simple Unity 6 3D FPS Template.
 
 ### Nexus Mods
